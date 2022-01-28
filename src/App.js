@@ -3,7 +3,6 @@ import axios from "axios";
 import moment from "moment";
 import './App.css';
 import {Legend, Line, LineChart, Tooltip, XAxis, YAxis} from "recharts";
-import {List} from "antd";
 
 const TextPart = ({ dataPoint, ...props }) => {
     return (
